@@ -19,12 +19,6 @@ class Queue {
   }
 
   getUnderlyingList() {
-    /* function lastElem(elem){
-      if(!elem.next){
-        return elem
-      }
-      return lastElem(elem.next)
-    } */
     return this.head
   }
 
